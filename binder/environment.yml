@@ -1,7 +1,7 @@
-name: plasmabio-template-python
+name: plasma-env-cleblond
 # channels priority
 # see https://bioconda.github.io/
-# conda-forge has highest prioriy
+# conda-forge has highest priority
 channels:
   - defaults
   - bioconda
@@ -19,3 +19,5 @@ dependencies:
   - jupyterlab-topbar-text
   - jupyterlab-system-monitor
   - nodejs
+  - pip:
+    - -r requirements.txt

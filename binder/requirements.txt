@@ -1,0 +1,8 @@
+# provided by Claire Leblond 2022-02-08
+cython
+pandas
+scipy
+seaborn>=0.11.2
+numpy
+statannotations>=0.4.2
+matplotlib
