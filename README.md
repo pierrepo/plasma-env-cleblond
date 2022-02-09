@@ -1,7 +1,7 @@
 # TP Étude du score polygénique d’autisme
 
 - Claire Leblond
-- Master Européen de Génétique
+- Master Européen de Génétique - M1
 - UE Génétique Humaine et Méthodologie
 
 ## Tester l'environnement sur Binder
