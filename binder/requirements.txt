@@ -6,3 +6,4 @@ seaborn>=0.11.2
 numpy
 statannotations>=0.4.2
 matplotlib
+statsmodels
