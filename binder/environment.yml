@@ -8,21 +8,31 @@ channels:
   - bioconda
   - conda-forge
 dependencies:
-  - python>=3.8
-  - pip
-  - numpy
-  - pandas
-  - matplotlib
-  - ipywidgets>=7.6,<8
+  # Jupyter dependencies
+  - jupyterhub>=1.5,<2
   - jupyterlab>=3.2,<4
   - jupyter-resource-usage
   - jupyterlab-topbar
   - jupyterlab-topbar-text
   - jupyterlab-system-monitor
   - nodejs
+  # Python environment
+  - python>=3.8
+  - pip
+  - ipywidgets>=7.6,<8
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - biopython
+  # Jupyter archive
+  # https://github.com/jupyterlab-contrib/jupyter-archive
+  - jupyter-archive
   # EPACTS
   # https://github.com/statgen/EPACTS
   # https://anaconda.org/genomedk/epacts
   - epacts
   - pip:
     - -r requirements.txt
+    - watermark
