@@ -3,6 +3,7 @@ name: plasma-env-cleblond
 # see https://bioconda.github.io/
 # conda-forge has highest priority
 channels:
+  - genomedk
   - defaults
   - bioconda
   - conda-forge
@@ -19,5 +20,9 @@ dependencies:
   - jupyterlab-topbar-text
   - jupyterlab-system-monitor
   - nodejs
+  # EPACTS
+  # https://github.com/statgen/EPACTS
+  # https://anaconda.org/genomedk/epacts
+  - epacts
   - pip:
     - -r requirements.txt
