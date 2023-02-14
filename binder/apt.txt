@@ -3,3 +3,5 @@ nano
 gawk
 tree
 htop
+# pfbtops provided by groff is required by EPACTS
+groff

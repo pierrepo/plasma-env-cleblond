@@ -33,6 +33,8 @@ dependencies:
   # https://github.com/statgen/EPACTS
   # https://anaconda.org/genomedk/epacts
   - epacts
+  # R base
+  - r-base<=4.0
   - pip:
     - -r requirements.txt
     - watermark
